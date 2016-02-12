@@ -31,4 +31,4 @@ if [ ! -z $WAIT_INT ]; then
   pipework --wait $WAIT_INT
 fi
 
-exec /usr/libexec/ipsec/starter --nofork
+exec /usr/lib/ipsec/starter --nofork
